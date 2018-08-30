@@ -3,7 +3,7 @@ struct [nome] {campos} [variaveis];
 */
 
 #include<stdio.h>
-struct aluno{
+typedef dado_aluno struct aluno{
 	int ra;
 	float nota;
 };
