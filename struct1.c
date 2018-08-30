@@ -3,13 +3,15 @@ struct [nome] {campos} [variaveis];
 */
 
 #include<stdio.h>
-typedef dado_aluno struct aluno{
+struct  aluno{
 	int ra;
 	float nota;
 };
+typedef struct aluno dado_aluno;
 int main(){
 	int n,i;
-	struct aluno turma[100];
+	
+	dado_aluno turma[100];
 	printf("Digite a quantidade: ");
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
